@@ -1,9 +1,12 @@
-import BasicApp from "./BasicApp";
+// import BasicApp from "./BasicApp";
+import Demo from "./Demo";
 
 const App = () => {
   return (
     <div>
-      <BasicApp/>
+      {/* <BasicApp/> */}
+      <h1>React Memo Demo</h1>
+      <Demo />
     </div>
   )
 }
